@@ -1,2 +1,2 @@
 const name = 'User';
-console.log(`Hello, ${name}!`);
+console.log(`Hello user!`);
