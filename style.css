@@ -79,3 +79,83 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+li {
+    font-style: oblique;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 600px;
+    width: 800px;
+  }
+  
+
+/* form centering */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .formInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .submitButton {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
