@@ -45,3 +45,11 @@ img {
     width: 30%;
     height: 30%;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
